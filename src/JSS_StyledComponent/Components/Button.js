@@ -14,3 +14,9 @@ export const Button = styled.button`
     transition: all 1s;
   }
 `;
+
+export const SmallButton = styled(Button)`
+  background-color: orange;
+  font-size: 0.5rem;
+  padding: 0.5rem;
+`;
