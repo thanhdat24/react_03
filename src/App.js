@@ -1,11 +1,14 @@
 import "./App.css";
 
-import UserProfile from "./FormValidation/UserProfile/UserProfile";
+import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
+
+// import UserProfile from "./FormValidation/UserProfile/UserProfile";
 
 function App() {
   return (
     <div className="App">
-      <UserProfile />
+      {/* <UserProfile /> */}
+      <DemoJSS />
     </div>
   );
 }
