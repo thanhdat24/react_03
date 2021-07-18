@@ -1,6 +1,8 @@
 import "./App.css";
 
-import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
+import DemoTheme from "./Themes/DemoTheme";
+
+// import DemoJSS from "./JSS_StyledComponent/DemoJSS/DemoJSS";
 
 // import UserProfile from "./FormValidation/UserProfile/UserProfile";
 
@@ -8,7 +10,8 @@ function App() {
   return (
     <div className="App">
       {/* <UserProfile /> */}
-      <DemoJSS />
+      {/* <DemoJSS /> */}
+      <DemoTheme />
     </div>
   );
 }
