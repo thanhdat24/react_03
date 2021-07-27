@@ -1,10 +1,23 @@
 import React, { Component } from "react";
 
+import _ from "lodash";
+
 export default class ChildComponent extends Component {
+  // Được gọi khi component này được sử dụng trên DOM ( giao diện của app)
+  static getDerivedStateFromProps(newProps, currentState) {
+    console.log("getDerivedStateFromProps");
+    return null;
+  }
+
+  shouldComponentUpdate(newProps, currentState) {
+    if (!_.isEqual(newProps.product, this.props.product)) return true;
+    else return false;
+  }
   render() {
     console.log("renderChildComponent");
     return (
       <div>
+        <h3>new Product child: {this.props.product.name}</h3>
         <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
           <a className="navbar-brand" href="#">
             Navbar
