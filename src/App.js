@@ -1,6 +1,8 @@
 import "./App.css";
 
-import LifeCycleReact from "./LifeCycleComponent/LifeCycleReact";
+import DemoHookUseState from "./Hooks/DemoHookUseState";
+
+// import LifeCycleReact from "./LifeCycleComponent/LifeCycleReact";
 
 // import DemoTheme from "./Themes/DemoTheme";
 
@@ -14,7 +16,8 @@ function App() {
       {/* <UserProfile /> */}
       {/* <DemoJSS /> */}
       {/* <DemoTheme /> */}
-      <LifeCycleReact />
+      {/* <LifeCycleReact /> */}
+      <DemoHookUseState/>
     </div>
   );
 }
