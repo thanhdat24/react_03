@@ -1,6 +1,8 @@
 import "./App.css";
 
-import DemoHookUseCallBack from "./Hooks/DemoHookUseCallBack";
+import DemoHookUseMeno from "./Hooks/DemoHookUseMeno";
+
+// import DemoHookUseCallBack from "./Hooks/DemoHookUseCallBack";
 
 // import DemoHookUseEffect from "./Hooks/DemoHookUseEffect";
 
@@ -23,7 +25,8 @@ function App() {
       {/* <LifeCycleReact /> */}
       {/* <DemoHookUseState/> */}
       {/* <DemoHookUseEffect /> */}
-      <DemoHookUseCallBack/>
+      {/* <DemoHookUseCallBack/> */}
+      <DemoHookUseMeno />
     </div>
   );
 }
