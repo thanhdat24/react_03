@@ -1,6 +1,9 @@
 import "./App.css";
 
-import DemoHookUseReducer from "./Hooks/DemoHookUseReducer";
+import ContextProvider from "./Hooks/Context/ContextProvider";
+import DemoHookUseContext from "./Hooks/DemoHookUseContext";
+
+// import DemoHookUseReducer from "./Hooks/DemoHookUseReducer";
 
 // import DemoUseRef from "./Hooks/DemoUseRef";
 
@@ -22,7 +25,7 @@ import DemoHookUseReducer from "./Hooks/DemoHookUseReducer";
 
 function App() {
   return (
-    <div className="App">
+    <ContextProvider>
       {/* <UserProfile /> */}
       {/* <DemoJSS /> */}
       {/* <DemoTheme /> */}
@@ -32,8 +35,9 @@ function App() {
       {/* <DemoHookUseCallBack/> */}
       {/* <DemoHookUseMeno /> */}
       {/* <DemoUseRef/> */}
-      <DemoHookUseReducer/>
-    </div>
+      {/* <DemoHookUseReducer/> */}
+      <DemoHookUseContext />
+    </ContextProvider>
   );
 }
 
