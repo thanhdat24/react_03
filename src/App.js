@@ -1,6 +1,8 @@
 import "./App.css";
 
-import DemoUseRef from "./Hooks/DemoUseRef";
+import DemoHookUseReducer from "./Hooks/DemoHookUseReducer";
+
+// import DemoUseRef from "./Hooks/DemoUseRef";
 
 // import DemoHookUseMeno from "./Hooks/DemoHookUseMeno";
 
@@ -29,7 +31,8 @@ function App() {
       {/* <DemoHookUseEffect /> */}
       {/* <DemoHookUseCallBack/> */}
       {/* <DemoHookUseMeno /> */}
-      <DemoUseRef/>
+      {/* <DemoUseRef/> */}
+      <DemoHookUseReducer/>
     </div>
   );
 }
