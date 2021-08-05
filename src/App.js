@@ -2,6 +2,7 @@ import "./App.css";
 
 import ContextProvider from "./Hooks/Context/ContextProvider";
 import DemoHookUseContext from "./Hooks/DemoHookUseContext";
+import DemoReduxApp from "./Hooks/DemoReduxApp";
 
 // import DemoHookUseReducer from "./Hooks/DemoHookUseReducer";
 
@@ -25,7 +26,7 @@ import DemoHookUseContext from "./Hooks/DemoHookUseContext";
 
 function App() {
   return (
-    <ContextProvider>
+    <div>
       {/* <UserProfile /> */}
       {/* <DemoJSS /> */}
       {/* <DemoTheme /> */}
@@ -36,8 +37,9 @@ function App() {
       {/* <DemoHookUseMeno /> */}
       {/* <DemoUseRef/> */}
       {/* <DemoHookUseReducer/> */}
-      <DemoHookUseContext />
-    </ContextProvider>
+      {/* <DemoHookUseContext /> */}
+      <DemoReduxApp/>
+    </div>
   );
 }
 
