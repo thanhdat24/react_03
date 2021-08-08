@@ -1,6 +1,9 @@
 import "./App.css";
 
-import DemoUseSpring from "./Hooks/ReactSpring/DemoUseSpring";
+import Ex3UseSpring from "./Hooks/ReactSpring/Ex3UseSpring";
+
+// import DemoUseSpring from "./Hooks/ReactSpring/DemoUseSpring";
+// import Ex2UseSpring from "./Hooks/ReactSpring/Ex2UseSpring";
 
 // import ContextProvider from "./Hooks/Context/ContextProvider";
 // import DemoHookUseContext from "./Hooks/DemoHookUseContext";
@@ -41,7 +44,9 @@ function App() {
       {/* <DemoHookUseReducer/> */}
       {/* <DemoHookUseContext /> */}
       {/* <DemoReduxApp/> */}
-      <DemoUseSpring />
+      {/* <DemoUseSpring /> */}
+      {/* <Ex2UseSpring /> */}
+      <Ex3UseSpring />
     </div>
   );
 }
